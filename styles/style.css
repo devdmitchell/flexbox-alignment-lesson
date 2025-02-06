@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: bisque;
+    padding: 20px;
+    margin: 25px;
+    border: 4px dotted black;
+    text-align: center;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: brown;
+    margin: 25px;
+    border: 4px dotted black;
+    text-align: center;
+    
+}
+.box {
+    width: 200px;
+    height: 200px;
+    border: 2px dotted black;
+    margin: 15px;
+}
